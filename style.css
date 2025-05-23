@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: azure;
+    background-color: black;
+}
+
+button {
+    background-color: azure;
+    color: black;
+    border: 2px solid rgb(17, 245, 131);
+}
+
+button:hover {
+    background-color: rgb(17, 245, 131);
+    color: white;
+    border: 2px solid white;
+}
